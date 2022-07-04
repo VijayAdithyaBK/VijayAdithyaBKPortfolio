@@ -347,7 +347,7 @@ destinations.
                     <p class="modal-card-title"><strong><a href="" target="_blank">Recognition of Human Actions Based on Deep
 Convolutional Neural Networks Using Postures & Depth
 Maps</a></strong></p>
-                    <button class="delete" id="closetopfive" aria-label="close"></button>
+                    <button class="delete" id="closetopsix" aria-label="close"></button>
                   </header>
                   <section class="modal-card-body">
                     <div class = "content">
@@ -613,6 +613,9 @@ action representation - Depth maps and body postures.
         $("#lanuchModalfive").click(function() {
           $(".modal.five").addClass("is-active"); 
         });
+        $("#lanuchModalsix").click(function() {
+          $(".modal.six").addClass("is-active"); 
+        });
         $(".modal-close").click(function() {
             $(".modal").removeClass("is-active");
         });
@@ -629,6 +632,9 @@ action representation - Depth maps and body postures.
             $(".modal").removeClass("is-active");
         });
         $("#closetopfive").click(function() {
+            $(".modal").removeClass("is-active");
+        });
+        $("#closetopsix").click(function() {
             $(".modal").removeClass("is-active");
         });
         });
