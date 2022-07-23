@@ -387,6 +387,30 @@ action representation - Depth maps and body postures.
                 </div>
               </div>
 
+              <!-- Project 8 -->
+              <div class="modal eight">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                  <header class="modal-card-head">
+                    <p class="modal-card-title"><strong><a href="" target="_blank">Voice Document</a></strong></p>
+                    <button class="delete" id="closetopeight" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                    <div class = "content">
+                      <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
+                      <h1>A simple voice document</h1>
+                      <p>
+                        Create documents via speech making use of 'speechrecognition' module. The default format the document is written in 'docx' format.
+                      </p>
+                    </ul>
+                  </div>
+                  </section>
+                  <footer class="modal-card-foot">
+                    <button class="button is-black" onclick="window.open('https://github.com/VijayAdithyaBK/voice_notes.git')" target="_blank">Check it out 🏃</button>
+                  </footer>
+                </div>
+              </div>
+
               <!-- Project List -->
               <div class="buttons is-medium">
                 <button class="button is-black is-outlined" id="lanuchModalone">Moive Ticket Booking Website</button>
@@ -396,6 +420,7 @@ action representation - Depth maps and body postures.
                 <button class="button is-black is-outlined" id="lanuchModalfive">CampFire</button>
                 <button class="button is-black is-outlined" id="lanuchModalsix">Recognition of Human Actions</button>
                 <button class="button is-black is-outlined" id="lanuchModalseven">Speech Assistant</button>
+                <button class="button is-black is-outlined" id="lanuchModaleight">Voice Document</button>
               </div>
             </div>
           </div>
@@ -639,6 +664,9 @@ action representation - Depth maps and body postures.
         $("#lanuchModalseven").click(function() {
           $(".modal.seven").addClass("is-active"); 
         });
+        $("#lanuchModaleight").click(function() {
+          $(".modal.eight").addClass("is-active"); 
+        });
         $(".modal-close").click(function() {
             $(".modal").removeClass("is-active");
         });
@@ -661,6 +689,9 @@ action representation - Depth maps and body postures.
             $(".modal").removeClass("is-active");
         });
         $("#closetopseven").click(function() {
+            $(".modal").removeClass("is-active");
+        });
+        $("#closetopeight").click(function() {
             $(".modal").removeClass("is-active");
         });
         });
