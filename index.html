@@ -411,6 +411,30 @@ action representation - Depth maps and body postures.
                 </div>
               </div>
 
+              <!-- Project 9 -->
+              <div class="modal nine">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                  <header class="modal-card-head">
+                    <p class="modal-card-title"><strong><a href="" target="_blank">Weather App</a></strong></p>
+                    <button class="delete" id="closetopnine" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                    <div class = "content">
+                      <img src="https://img.icons8.com/color/48/000000/angularjs.png"/>
+                      <h1>Minimal weather app</h1>
+                      <p>
+                        A simple weather app built using Angular and Open Weather Map Api.
+                      </p>
+                    </ul>
+                  </div>
+                  </section>
+                  <footer class="modal-card-foot">
+                    <button class="button is-black" onclick="window.open('https://github.com/VijayAdithyaBK/WeatherApp.git')" target="_blank">Check it out 🏃</button>
+                  </footer>
+                </div>
+              </div>
+
               <!-- Project List -->
               <div class="buttons is-medium">
                 <button class="button is-black is-outlined" id="lanuchModalone">Moive Ticket Booking Website</button>
@@ -421,6 +445,7 @@ action representation - Depth maps and body postures.
                 <button class="button is-black is-outlined" id="lanuchModalsix">Recognition of Human Actions</button>
                 <button class="button is-black is-outlined" id="lanuchModalseven">Speech Assistant</button>
                 <button class="button is-black is-outlined" id="lanuchModaleight">Voice Document</button>
+                <button class="button is-black is-outlined" id="lanuchModalnine">Weather App</button>
               </div>
             </div>
           </div>
@@ -667,6 +692,9 @@ action representation - Depth maps and body postures.
         $("#lanuchModaleight").click(function() {
           $(".modal.eight").addClass("is-active"); 
         });
+        $("#lanuchModalnine").click(function() {
+          $(".modal.nine").addClass("is-active"); 
+        });
         $(".modal-close").click(function() {
             $(".modal").removeClass("is-active");
         });
@@ -692,6 +720,9 @@ action representation - Depth maps and body postures.
             $(".modal").removeClass("is-active");
         });
         $("#closetopeight").click(function() {
+            $(".modal").removeClass("is-active");
+        });
+        $("#closetopnine").click(function() {
             $(".modal").removeClass("is-active");
         });
         });
